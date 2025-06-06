@@ -126,7 +126,7 @@ class Importer {
 		<h3>Importing questions...</h3>';
 
 		if ($pai_db->query($sql)) echo '<p>' . mysqli_affected_rows($pai_db->getConnection()) . ' question(s) successfully imported.</p>';
-		else echo '<p>Sorry, an error occured when importing your questions. Please check your database settings and try again.</p>';
+                else echo '<p>Sorry, an error occurred when importing your questions. Please check your database settings and try again.</p>';
 	}
 
 	private function importFromWaks() {
@@ -207,7 +207,7 @@ class Importer {
 		<h3>Importing questions...</h3>';
 
 		if ($pai_db->query($sql)) echo '<p>' . mysqli_affected_rows($pai_db->getConnection()) . ' question(s) successfully imported.</p>';
-		else echo '<p>Sorry, an error occured when importing your questions. Please check your database settings and try again.</p>';
+                else echo '<p>Sorry, an error occurred when importing your questions. Please check your database settings and try again.</p>';
 	}
 
 	private function importFromManual() {
