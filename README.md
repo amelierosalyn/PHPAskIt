@@ -54,7 +54,7 @@ PHPAskIt is a question and answer script which incorporates categories and perma
 - Enabled limited bbCode for better formatting of answers
 - Changed to Prototype and jQuery JavaScript frameworks for more advanced AJAX integration
 - Removed import scripts - now built-in
-- Layout tweaks - now HTML5 output with CSS3 effects (HTML4/CSS2 fallback)
+- Layout tweaks - and modernised code output
 - Re-released under the GPL and ported development to GitHub
 
 #### VERSION 3.0
